@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'Aldo';
+    src: url('/Assets/Fonts/AldotheApache.woff2') format('woff2'),
+        url('/Assets/Fonts/AldotheApache.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+*{
+    font-family: 'Aldo';
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+}
+
+.img-wrapper{
+    width: 100%;
+    height: 100%;
+    background: url(/Assets/Image/clean.svg) no-repeat center;
+    background-size: cover;
+}
+
+.social-list{
+    margin: auto;
+}
+
+.social_list{
+    width: 60%;
+    margin: auto;
+    text-align: right;
+}
+
+.social-list img{
+    margin-top: 45px;
+    margin-right: 25px;
+}
+
+.main{
+    margin: auto;
+    color: white;
+    width: 65%;
+    height: 100%;
+    display: flex;
+}
+
+.text{
+    margin: auto;
+}
+
+.text-1{
+    margin: auto;
+    font-size: 55px;
+    text-shadow: 6px 6px 6px rgb(0, 0, 0);
+}
+
+.text-2{
+    margin: auto;
+    color: #d60404;
+    font-size: 55px;
+    text-shadow: 6px 6px 6px black;
+}
+
+.text-3{
+    margin-top: 20px;
+    font-size: 25px;
+    text-shadow: 5px 5px 5px black;
+}
+
+.contato{
+    margin-top: 60px;    
+}
+
+
+
+.input-group{
+    position: relative;
+    
+}
+
+.input-group p{
+    font-size: 20px;
+}
+
+.input-group textarea{
+    padding-top: 1rem;
+    max-width: 25rem;
+    max-height: 10rem;
+    
+}
+
+.field{
+    border: none;
+    width: 20rem;
+    font-size: 1.5rem;
+    border-bottom: 2px dashed white;
+    height: 4rem;
+    outline: none;
+    margin: 1rem 0;
+    border-radius: 5px;
+    box-shadow: 1px 5px 5px black;
+}
+
+.field-label{
+    position: absolute;
+    margin-left: 15px;
+    color: rgb(109, 109, 109);
+    left: 0;
+    top: 2rem;
+    font-size: 1.2rem;
+}
+
+.button{
+    width: 66%;
+    text-align: center;
+    
+}
+
+.btn-submit{
+    background-color: #a09c9c;
+    color: rgb(32, 29, 29);
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    width: 30%;
+    height: 2rem;
+    margin-top:1rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
